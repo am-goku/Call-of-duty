@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    background: black;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    color: #969696;
+    background-color: black;
+    background-image:url(./header-image.png);
+    position: fixed;
+    z-index: 99;
+}
+
+.logo-division{
+    margin: 0;
+    width: 125px;
+    height: 50px;
+    float: left;
+}
+.logo-division :hover{
+    background: #000;;
+}
+#logo{
+    width: 105px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.games{
+    width: 106px;
+    height: 50px;
+   
+    float: left;
+}
+.news{
+    width: 73px;
+    height: 50px;
+    
+    float: left;
+}
+.esports{
+    width: 120px;
+    height: 50px;
+  
+    float: left;
+}
+.support{
+    width: 97px;
+    height: 50px;
+  
+    float: left;
+}
+.shop{
+    width: 95px;
+    height: 50px;
+   
+    float: left;
+}
+
+.menu{
+    color: #969696;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top: 17px;
+    margin-left: 15px;
+    float: left;
+}
+
+.registration{
+    width: 158px;
+    height: 50px;
+    float: left;
+    margin-left: 555px;
+    padding-top: 14px;
+    
+    
+}
+.log{
+    color: #969696;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+    margin-left: 15px;
+
+
+}
+
+.purchase{
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin-left: 0;
+    text-decoration: none;
+    background: linear-gradient(to top left, #336600 0%, #009933 100%);
+    
+
+}
+
+#purch{
+    color: white;
+    font-size: 18px;
+    
+    text-decoration: none;
+    margin-top: 14px;
+    margin-left: 25px;
+}
+
+.menu:hover{
+    color: #71af3a;
+}
+.log:hover{
+    color: #fff;
+}
+
+.drop{
+    width: 11px;
+    height: 9px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 10px;
+    
+}
+.down{
+    width: 11px;
+    height: 9px;
+    float: left;
+
+    transition: all 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.content{
+    width: 100%;
+    height: 607px;
+    background-image: url(./main-pic1.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+.inner{
+    width: 450px;
+    height: 316px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+    
+}
+.inner-1{
+    width: 450px;
+    height: 151px;
+}
+.inner-1 img{
+    width: 450px;
+    height: 151px;
+}
+.inner-2{
+    width: 450px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.tm{
+    font-size: x-small;
+}
+.inner-3{
+    width: 200px;
+    height: 47px;
+    background: #e5e3e3;
+    float: left;
+    margin-left: 10px;
+    margin-top: 35px;
+    border-top:2px solid #cdc4bd;
+    border-bottom:2px solid #cdc4bd;
+}
+.inner-4{
+    width: 200px;
+    height: 47px;
+    background: #e5e3e3;
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+    border-top:2px solid #cdc4bd;
+    border-bottom:2px solid #cdc4bd;
+}
+
+.box{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #33312f;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.part2{
+    width: 100%;
+    height: 355px;
+    float: left;
+}
+.league{
+    width: 66%;
+    height: 100%;
+    float: left;
+    background-image: url(./leaguepack.png);
+    background-size: cover;
+    
+    
+}
+.inner-league{
+    
+    margin-top: 74px;
+    margin-left: 10px;
+    width: 375px;
+    height: 210px;
+    text-align: center;
+}
+.league-logo{
+    width:100%;
+    height: 44px;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+.league-logo img{
+    width: 225px;
+    height: 44px;
+}
+.league-text{
+    width: 100%;
+    height: 64px;
+    text-align: center;
+    font-family: 'Anybody', cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+}
+
+
+.league-btn{
+    width: 245px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 63px;
+    background: #e5e3e3;
+    border-top: 2px solid #cdc4bd;
+    border-bottom: 2px solid #cdc4bd;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.league-btn:hover{
+    cursor: pointer;
+}
+
+.mw2{
+    width: 34%;
+    height: 100%;
+    float: left;
+    background: #000;
+}
+.mw2-top{
+    width: 100%;
+    height: 83%;
+    background-image: url(./Ghost_tout.jpg);
+    background-size: cover;
+    transition: transform .2s;
+    
+}
+
+.mw2-top:hover{
+    cursor: pointer;
+    transform: scaleY();
+}
+
+.mw2-foot{
+    width: 100%;
+    height: 17%;
+    background: rgb(0, 0, 0);
+}
+.mwf1{
+    width: 30%;
+    height: 100%;;
+    
+    background-image: url(./mw2-white-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    float: left;
+    
+}
+.mwf2{
+    width: 70%;
+    height: 100%;
+    background: #000000;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #fff;
+}
+
+.part3{
+    width: 100%;
+    height: 355px;
+    float: left;
+    background: #000;
+}
+.section1{
+    width: 66%;
+    height: 100%;
+    float: left;
+    background: #000;
+}
+.section2{
+    width: 34%;
+    height: 100%;
+    float: left;
+    background-image: url(./neymar.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.section2 img{
+    width: 90px;
+    height: 35px;
+    float: left;
+    margin-top: 290px;
+    margin-left: 30px;   
+
+}
+.section2 p{
+    color: #fff;
+    margin-top: -38px;
+    margin-left: 135px;
+    float: left;
+}
+
+
+.section2:hover{
+    cursor: pointer;
+   
+}
+
+
+.inner-sec1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(./wrzon.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.inner-sec1 img{
+    width: 20%;
+    height: 8%;
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+.inner-sec1 p{
+    margin-top: -32px;
+    margin-left: 135px;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    float: left;
+}
+
+
+.inner-sec2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: black;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+#mw1{
+    width: 501px;
+    height: 76.5%;
+    float: left;
+}
+
+#sec2img{
+    width: 16%;
+    height: 8%;
+    float: left;
+    margin-top: 18px;
+    margin-left: 28px;
+    transform: scale(1);
+    transition: 0.3ms ease-in-out;
+}
+.inner-sec2 #sec2img:hover img{
+    transform: scale(1.5);
+    
+}
+.inner-sec2:hover{
+    cursor: pointer;
+}
+.inner-sec2 p{
+    color: #fff;
+    margin-top: -32px;
+    margin-left: 135px;
+    float: left;
+}
+
+
+
+.part4{
+    width: 100%;
+    height: 280px;
+    float: left;
+    border-top: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+    padding: 25px 0 30px;
+    background: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+}
+
+.inhead{
+    width: 1280px;
+    height: 35px;
+    
+    border-bottom: 1px solid #525252;
+    text-transform: uppercase;
+}
+.inhead h2{
+    color: #fff;
+    line-height: 1.5;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    float: left;
+}
+.inhead h3{
+    color: white;
+    line-height:1.2;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    float: left;
+    margin-left: 790px;
+}
+.inner-inhead{
+    width: 310px;
+    height: 35px;
+    float: left;
+    background: #000000;
+}
+.in1{
+    width: 11%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    float: left; 
+}
+.in1:hover{
+    cursor: pointer;
+}
+.in1 p{
+    color: #969696;
+    margin-left: 7px;
+    margin-top: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+}
+.mw2ic{
+    margin-top: 17px;
+    margin-left: 7px;
+    width: 27px;
+    height: 18px;
+    float: left;
+}
+
+#wzn{
+    margin-top: 18px;
+    margin-left: 7px;
+    width: 25px;
+    height: 14px;
+    float: left;
+}
+#vg{
+    margin-top: 14px;
+    margin-left: 4px;
+    width: 25px;
+    height: 20px;
+    float: left;
+}
+#wz{
+    margin-top: 16px;
+    margin-left: 4px;
+    width: 25px;
+    height: 18px;
+    float: left;
+}
+#codm{
+    margin-top: 15px;
+    margin-left: 6px;
+    width: 17px;
+    height: 17px;
+    float: left;
+}
+#codl{
+    margin-top: 19px;
+    margin-left: 0px;
+    width: 31px;
+    height: 12px;
+    float: left;
+}
+
+#btn1{
+    margin-top: 11px;
+    margin-left: 0px;
+    width: 71px;
+    height: 23px;
+    float: left;
+    font-weight: lighter;
+}
+#btn1:hover{
+    cursor: pointer;
+}
+
+
+.inbody{
+    width: 1280px;
+    height: 202px;
+    background: #000000;
+    float: left;
+}
+.arrow{
+    width: 2.5%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    float: left;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.left{
+    width: 60%;
+    height: 15%;
+    margin-top: 80px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.slide-content{
+    width: 19%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    float: left;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.thumbnail{
+    margin-left: 3%;
+    width: 95%;
+    height: 60%;
+    cursor: pointer;
+}
+.slide-p{
+    vertical-align: baseline;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-top: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.part5{
+    width: 100%;
+    height: 530px;
+    background: rgb(0, 0, 0);
+    float: left;
+    display: grid;
+    padding-bottom: 200px;
+}
+
+#p2{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: larger;
+    color: #cdc4bd;
+    margin-left: 44%;
+    margin-top: 60px;
+}
+#p3{
+    color: #e5e3e3;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.fifth-inner{
+    width: 80%;
+    height: 80%;
+    margin-top: -8%;
+    background: rgb(0, 0, 0);
+    justify-self: center;
+    justify-content: center;
+    
+}
+
+.five-1{
+    width: 280px;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 114px;
+    background-image: url(./ModernWarfareII_Keyart_MWII.png);
+    
+    cursor: pointer;
+    float: left;
+    justify-self: center;
+    transform: scale(1);
+    transition: 0.1;
+}
+.five-1:hover{
+    transform: scale(0.9);
+}
+.five-2{
+    width: 280px;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 114px;
+    background-image: url(./Call_of_Duty_Warzone_2.0_Cover.png);
+    background-size: cover;
+    float: left;
+    justify-self: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3;
+    
+}
+.five-2:hover{
+    transform: scale(0.9);
+}
+.five-3-offer{
+    width: 280px;
+    height: 290px;
+    margin-left: 20px;
+    margin-top: 84px;
+    display: grid;
+    justify-content: center;
+    float: left;
+    justify-self: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3;
+}
+.five-3-offer:hover{
+    transform: scale(0.9);
+}
+#offer{
+    width: 100%;
+    height: 30px;
+    background: #e5e3e3;
+    font-weight: bolder;
+    color: rgb(131, 18, 18);
+    float: left;
+    cursor: pointer;
+}
+#offer h3{
+    margin-top: 5px;
+    margin-left: 64px;
+
+}
+.five-3{
+    width: 280px;
+    height: 260px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url(Call_of_Duty_Vanguard_cover_art.png);
+    float: left;
+    cursor: pointer;
+    
+}
+.five-4{
+    width: 280px;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 114px;
+    background-image: url(./mobile-removebg-preview.png);
+    background-color: #969696;
+    float: left;
+    justify-self: center;
+    border: 1px solid #525252;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3ms;
+}
+.five-4:hover{
+    transform: scale(0.9);
+}
+
+
+
+.main-footer{
+    width: 100%;
+    height: 663px;
+    background-color: #000000;
+    float: left;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.footer{
+    width: 990px;
+    height: 100%;
+    background: #000000;
+    margin-left: 225px;
+    justify-content: center;
+}
+
+
+.inner-footer1{
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    background: rgb(0, 0, 0);
+    border-bottom: 1px solid #969696;
+    
+
+}
+
+.inner-footer1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -40px;
+    margin-top: 0px;
+    list-style: none;
+    color: #969696;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+.li:hover{
+    cursor: pointer;
+    color: #cdc4ba;
+}
+
+.inner-footer2{
+    width: 100%;
+    height: 75%;
+    background: rgb(0, 0, 0);
+}
+.table{
+    width: 350px;
+    height: 330px;
+    background: rgb(0, 0, 0);
+    margin-top: 80px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 16px;
+    float: left;
+}
+
+.table img{
+    width: 100%;
+    padding: 10px;
+}
+
+.privacy{
+    width: 90px;
+    height: 123px;
+    float: left;
+    margin-top: 165px;
+    margin-left: 150px;
+    background-image: url(./esrb-privacy.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+.privacy-2{
+    width: 315px;
+    height: 200px;
+    float: left;
+    margin-top: 175px;
+    margin-left: 20px;
+}
+.privacy-2 img{
+        width: 300px;
+        height: fit-content;
+        margin-top: -35px;
+        margin-left: 8px;
+        cursor: pointer;
+
+}
+
+
+#end{
+    color: #969696;
+    font-size: small;
+    text-align: center;
+}
+#endimg{
+    width: 17px;
+    height: 9px;
+    margin-left: 50%;
+}
+
+
+
+
