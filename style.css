@@ -800,6 +800,7 @@ body{
 .table img{
     width: 100%;
     padding: 10px;
+    cursor: pointer;
 }
 
 .privacy{
