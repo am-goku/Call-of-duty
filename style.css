@@ -134,7 +134,11 @@ body{
     float: left;
     margin-top: 17px;
     margin-left: 10px;
-    
+    transition: 300ms;
+}
+.drop:hover{
+    transform: rotate(180deg);
+    transition: 300ms;
 }
 .down{
     width: 11px;
